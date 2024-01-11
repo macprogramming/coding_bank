@@ -1,0 +1,301 @@
+
+/* https://react-bootstrap.netlify.app/docs/components/modal/ */
+/* https://react-icons.github.io/react-icons/icons/bi/ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #1E2772;
+  --secondary-color: #ff5200;
+  --gray: #e1e1e14d;
+}
+
+.form-group{
+  position: relative;
+}
+.form-group .icon{
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  padding: 7px;
+}
+.form-group input, .form-input{
+  padding-right: 40px;
+  background-color: var(--gray)!important;
+  border-color: var(--gray)!important;
+}
+
+.form-group input, .form-input:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: var(--gray)!important;
+  outline: 0;
+  box-shadow: none!important;
+}
+/* custom text css */
+
+.text-custom-primary{
+  color: var(--primary-color)!important;
+}
+.text-custom-secondary{
+  color: var(--secondary-color)!important;
+}
+
+/* custom button css */
+
+.btn-custom-primary, .btn-custom-outline-primary:hover{
+  color: #fff!important;
+  background-color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+}
+.btn-custom-outline-primary{
+  color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+}
+
+.btn-custom-secondary, .btn-custom-outline-secondary:hover{
+  color: #fff!important;
+  background-color: var(--secondary-color)!important;
+  border-color: var(--secondary-color)!important;
+}
+
+.btn-custom-outline-secondary{
+  color: var(--secondary-color)!important;
+  border-color: var(--secondary-color)!important;
+  background-color: #fff;
+}
+
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+}
+.hr-text:before {
+  content: "";
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
+.custom-mh-100{
+  height: 100vh;
+}
+
+.header{
+  background-color: var(--primary-color)!important;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: absolute;
+  bottom: 30px;
+  right: 120px;
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: #fff;
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center; */
+}
+.tcontent-end{
+  position: absolute;
+  /* right: 40%; */
+  top: 30px;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: right !important;
+}
+.tcontent-end h1{
+  font-size: 60px;
+}
+
+.video-header {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-header video{
+  width: 100%;
+}
+.content-span{
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: -webkit-fill-available;
+}
+.content-form{
+  bottom: 20px;
+  border-radius: 10px;
+}
+.categoryIcon{
+  padding: 10px;
+  background-color: rgb(255, 208, 208);
+  border-radius: 50%;
+}
+.bottom-custom-center{
+  bottom: -60px;
+}
+
+#sidebar{
+  float: left;
+  width: calc(100% - 82%);
+  height: 100vh;
+}
+#sidebarToggle{
+  float: left;
+  width: calc(100% - 95%);
+  height: 100vh;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: var(--secondary-color)!important;
+  background-color: transparent!important;
+}
+.nav-link:hover{
+  color: var(--secondary-color)!important;
+}
+.nav-pills .nav-link {
+  border-radius: 0px!important;
+}
+.nav-link{
+  color: var(--white)!important;
+}
+.table_img{
+  height: 40px;
+  width: 40px;
+}
+
+.form-check-input-primary:checked {
+  background-color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+}
+.form-check-input{
+  width: 1em!important;
+  height: 1em!important;
+  border-radius: 0px!important;
+  margin-right: 3px;
+}
+.form-check-input-primary:checked{
+  background-color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+}
+.form-check-input-secondary:checked{
+  background-color: var(--secondary-color)!important;
+  border-color: var(--secondary-color)!important;
+}
+.form-check-input:focus {
+  box-shadow: none!important;
+}
+
+.table thead tr th, .table tbody tr td {
+  padding: 5px 10px;
+}
+.table thead tr th {
+  text-wrap: nowrap;
+  font-weight: 500;
+}
+.table-custom-primary thead tr th{
+  color: var(--primary-color);
+}
+.table-custom-secondary thead tr th{
+  color: var(--secondary-color);
+}
+.sub_menus::after{
+  content: '';
+  box-sizing: border-box;
+  height: 10px;
+  width: 10px;
+  border-style: solid;
+  border-color: var(--white);
+  border-width: 0px 1px 1px 0px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  transform: rotate(224deg);
+  transition: border-width 150ms ease-in-out;
+  position: absolute;
+  right: 10px;
+  top: 17px;
+}
+.sub_menus.collapsed::after{
+  content: '';
+  box-sizing: border-box;
+  height: 10px;
+  width: 10px;
+  border-style: solid;
+  border-color: var(--secondary-light);
+  border-width: 0px 1px 1px 0px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+.collapse.show{
+  background-color: var(--gray);
+}
+
+/* checkbox css */
+
+.check-primary.form-check-input:checked {
+  background-color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+}
+.check-secondary.form-check-input:checked {
+  background-color: var(--secondary-color)!important;
+  border-color: var(--secondary-color)!important;
+}
+
+.imp_input::after{
+  content: '*';
+  color: red;
+  padding-left: 2px;
+}
+
+/* text css */

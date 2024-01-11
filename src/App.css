@@ -1,0 +1,211 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --primary-color: #ff8306;
+  --secondary-color: #000;
+  --primary-light: #ff4c01;
+  --secondary-light: #333;
+  --white: #fff;
+  --light-gray: #8080801c;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-custom-primary{
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+.btn-custom-primary-light{
+  background-color: var(--primary-light);
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+.btn-custom-seconadry{
+  background-color: var(--secondary-color);
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+.btn-custom-seconadry-light{
+  background-color: var(--secondary-light);
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+.btn-custom-primary-outline{
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  outline: none;
+}
+.btn-custom-primary-light-outline{
+  background-color: var(--white);
+  color: var(--primary-light);
+  border: none;
+  outline: none;
+}
+.btn-custom-seconadry-light-outline{
+  background-color: var(--white);
+  color: var(--secondary-light);
+  border: none;
+  outline: none;
+}
+.btn-custom-seconadry-outline{
+  background-color: var(--white);
+  color: var(--secondary-color);
+  border: none;
+  outline: none;
+}
+
+.text-custom-primary{
+  color: var(--primary-color);
+}
+.text-custom-secondary{
+  color: var(--secondary-color);
+}
+.text-custom-primary-light{
+  color: var(--primary-light);
+}
+.text-custom-secondary-light{
+  color: var(--secondary-light);
+}
+
+.bg-custom-primary{
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+.bg-custom-primary-light{
+  background-color: var(--primary-light);
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+.bg-custom-seconadry{
+  background-color: var(--secondary-color);
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+.bg-custom-seconadry-light{
+  background-color: var(--secondary-light);
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+.bg-custom-primary-outline{
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  outline: none;
+}
+.bg-custom-primary-light-outline{
+  background-color: var(--white);
+  color: var(--primary-light);
+  border: none;
+  outline: none;
+}
+.bg-custom-seconadry-light-outline{
+  background-color: var(--white);
+  color: var(--secondary-light);
+  border: none;
+  outline: none;
+}
+.bg-custom-seconadry-outline{
+  background-color: var(--white);
+  color: var(--secondary-color);
+  border: none;
+  outline: none;
+}
+.bg-custom-lightgray{
+  background-color: var(--light-gray);
+  color: var(--secondary-color);
+  border: none;
+  outline: none;
+}
+
+.sidebar{
+  height: 100vh;  width: 250px; float: left;
+}
+header{
+  float: right; width: calc(100% - 250px); height: 100%;
+}
+.l1_menus{
+  padding: 0.5rem !important;
+}
+.l1_menus .l2_menus li{
+  padding: 7px 15px;
+}
+.l1_menus .l2_menus li:hover {
+  color: var(--primary-color);
+}
+.l1_menus .l2_menus li a{
+  text-decoration: none;
+}
+.l1_menus .l2_menus li:hover a{
+  color: var(--primary-color)!important;
+}
+
+button[aria-expanded='true'] {
+  background-color: var(--primary-color);
+  color: var(--white);
+  outline: none;
+  border: none;
+}
+.l1_menus li button:hover{
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.arrow-down::after{
+  content: '';
+  box-sizing: border-box;
+  height: 10px;
+  width: 10px;
+  border-style: solid;
+  border-color: var(--white);
+  border-width: 0px 1px 1px 0px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  transform: rotate(224deg);
+  transition: border-width 150ms ease-in-out;
+  position: absolute;
+  right: 10px;
+  top: 17px;
+}
+.collapsed.arrow-down::after{
+  content: '';
+  box-sizing: border-box;
+  height: 10px;
+  width: 10px;
+  border-style: solid;
+  border-color: var(--secondary-light);
+  border-width: 0px 1px 1px 0px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+} */
