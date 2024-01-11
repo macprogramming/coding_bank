@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/macprogramming/coding_bank/static/css/main.08587160.css",
+    "main.js": "/macprogramming/coding_bank/static/js/main.83052793.js",
+    "static/media/Login_image.svg": "/macprogramming/coding_bank/static/media/Login_image.7a711fea4234b7f00377283668dd7aa9.svg",
+    "index.html": "/macprogramming/coding_bank/index.html",
+    "main.08587160.css.map": "/macprogramming/coding_bank/static/css/main.08587160.css.map",
+    "main.83052793.js.map": "/macprogramming/coding_bank/static/js/main.83052793.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08587160.css",
+    "static/js/main.83052793.js"
+  ]
+}
